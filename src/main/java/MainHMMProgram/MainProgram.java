@@ -19,5 +19,7 @@ public class MainProgram {
         team2.add(new Wizard("Merlin"));
         team2.add(new Peasant("Peter"));
 
+        team1.forEach(n -> System.out.println(n.getInfo()));
+        team2.forEach(n -> System.out.println(n.getInfo()));
     }
 }
