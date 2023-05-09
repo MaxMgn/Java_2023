@@ -22,4 +22,9 @@ abstract public class Shooter extends BaseUnit{
     public void shoot(){
 
     }
+
+    @Override
+    public String getInfo() {
+        return super.getInfo()+ ", numberOfShots: " + this.numberOfShots + ", shootingRange: ";
+    }
 }

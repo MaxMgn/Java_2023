@@ -1,6 +1,6 @@
 package OOP_HMM;
 
-public class Crossbowman extends Shooter{
+public class Crossbowman extends OOP_HMM.Shooter {
 //    protected static int maxhp = 50;
 //    protected static int initMinDamage = 3;
 //    protected static int initMaxDamage = 5;

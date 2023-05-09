@@ -1,6 +1,6 @@
 package OOP_HMM;
 
-abstract public class BaseUnit {
+abstract public class BaseUnit implements GameInterface{
     protected String name;
     protected static int maxhp;
     protected int hp;
@@ -74,4 +74,15 @@ abstract public class BaseUnit {
     public String toString() {
         return name + " hp: " + hp;
     }
+
+    @Override
+    public void step() {
+
+    }
+
+    @Override
+    public String getInfo() {
+        return "Имя: " + this.name + "" + this.hp + ", урон: " + this.damage + ", скорость: " + this.speed;
+    }
+
 }

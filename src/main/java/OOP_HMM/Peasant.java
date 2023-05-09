@@ -7,6 +7,12 @@ public class Peasant extends BaseUnit {
     }
 
     @Override
+    public void attack() {
+        super.attack();
+    }
+
+
+    @Override
     public String toString() {
         return "Peasant{" +
                 "name='" + name + '\'' +
