@@ -82,7 +82,7 @@ abstract public class BaseUnit implements GameInterface{
 
     @Override
     public String getInfo() {
-        return "Имя: " + this.name + "" + this.hp + ", урон: " + this.damage + ", скорость: " + this.speed;
+        return "Name: " + this.name + "HP: " + this.hp + ", minDamage: " + this.minDamage + ", maxDamage: " + this.maxDamage + ", speed: " + this.speed;
     }
 
 }

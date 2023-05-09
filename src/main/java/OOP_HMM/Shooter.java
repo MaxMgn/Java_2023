@@ -25,6 +25,6 @@ abstract public class Shooter extends BaseUnit{
 
     @Override
     public String getInfo() {
-        return super.getInfo()+ ", numberOfShots: " + this.numberOfShots + ", shootingRange: ";
+        return super.getInfo()+ ", numberOfShots: " + this.numberOfShots + ", minShootingDamage: " + this.minShootingDamage + ", maxShootingDamage: " + this.maxShootingDamage;
     }
 }
